@@ -64,6 +64,10 @@ flutter:
     - assets/images/profile.jpg
     - assets/images/placeholder.png
     - assets/images/profile_image.jpg
+    - assets/images/chip.png
+    - assets/images/visa.png
+
+
 
 
 

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tuts/app/assignments/payment_wallet/payment_wallet.dart';
 import 'package:flutter_tuts/app/assignments/profile_dashboard/profile_dashboard.dart';
 import 'package:flutter_tuts/app/screens/home/home_screen.dart';
 import 'package:flutter_tuts/app/tutorial_sessions/container_widget/container_widget.dart';
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ProfileDashboardScreen(),
+      debugShowCheckedModeBanner: false,
+      home: PaymentWalletScreen(),
     );
   }
 }
